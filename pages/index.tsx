@@ -9,6 +9,14 @@ const IndexPage = () => {
       <StickyNavigation />
       <HeroSection>
         <HeroSection.Img src="/assets/images/kasen_buiten_1.jpg" />
+        <HeroSection.Content>
+          <HeroSection.Header>
+            <HeroSection.Title>Kasen</HeroSection.Title>
+            <HeroSection.Subtitle>
+              Een oase van rust (ofzo)
+            </HeroSection.Subtitle>
+          </HeroSection.Header>
+        </HeroSection.Content>
       </HeroSection>
       <ImageSection>
         <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
