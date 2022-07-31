@@ -37,8 +37,7 @@ const Subtitle = ({ children, className }: Props) => (
   </p>
 );
 
-// TODO: Accept a `className` prop
-const Content = ({ children, className }: Props) => (
+const Content = ({ children }) => (
   <div className="w-full lg:w-1/2 lg:flex lg:flex-col lg:justify-center">
     <div className="px-6 lg:px-16 py-16 prose prose-headings:font-playfair">
       {children}
@@ -46,6 +45,7 @@ const Content = ({ children, className }: Props) => (
   </div>
 );
 
+// TODO: Change button colour because green is ugly
 type LinkProps = Props & { href: string };
 const Button = ({ children, className, href }: LinkProps) => (
   <Link href={href} passHref>
