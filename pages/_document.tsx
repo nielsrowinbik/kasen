@@ -88,7 +88,7 @@ const Document = () => (
       />
       <meta name="theme-color" content="#ffffff" />
     </Head>
-    <body className="min-h-screen bg-gray-100 text-black dark:bg-gray-900 dark:text-white dark:text-opacity-90">
+    <body className="min-h-screen bg-gray-100 text-black">
       <Main />
       <NextScript />
     </body>
