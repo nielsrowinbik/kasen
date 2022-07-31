@@ -10,7 +10,7 @@ type Props = {
 };
 
 const Section = ({ children }) => (
-  <BaseSection className="sm:mt-5 h-[calc(100vh-2.5rem)]">
+  <BaseSection className="sm:mt-5 h-screen sm:h-[calc(100vh-2.5rem)]">
     {children}
   </BaseSection>
 );

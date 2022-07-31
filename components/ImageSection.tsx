@@ -3,7 +3,9 @@ import NextImage from 'next/image';
 import BaseSection from './BaseSection';
 
 const Section = ({ children }) => (
-  <BaseSection className="min-h-[calc(100vh-2.5rem)]">{children}</BaseSection>
+  <BaseSection className="min-h-screen sm:min-h-[calc(100vh-2.5rem)]">
+    {children}
+  </BaseSection>
 );
 
 const Img = ({ src }) => (
