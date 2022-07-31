@@ -7,8 +7,25 @@ type Props = {
   className?: string;
 };
 
-const Section = ({ children }) => (
-  <section className="sm:m-5 h-screen sm:h-[calc(100vh-2.5rem)] relative ">
+type HeroSectionProps = {
+  center?: boolean;
+  children?: ReactNode;
+  fullHeight?: boolean;
+};
+const Section = ({
+  center = true,
+  children,
+  fullHeight = true,
+}: HeroSectionProps) => (
+  <section
+    className={cn(
+      'sm:m-5 relative',
+      center && 'text-center',
+      !center && 'text-left',
+      fullHeight && 'h-screen sm:h-[calc(100vh-2.5rem)]',
+      !fullHeight && 'h-[50vh] sm:h-[calc(50vh-2.5rem)]'
+    )}
+  >
     {children}
   </section>
 );
@@ -36,15 +53,15 @@ const Content = ({ children, className }: Props) => (
 );
 
 const Header = ({ children, className }: Props) => (
-  <header className={cn('text-center', className)}>{children}</header>
+  <header className={cn(className)}>{children}</header>
 );
 
 const Title = ({ children, className }: Props) => (
-  <h2 className={cn('text-8xl font-bold mb-5 mt-0', className)}>{children}</h2>
+  <h2 className={cn('text-7xl font-bold mb-5 mt-0', className)}>{children}</h2>
 );
 
 const Subtitle = ({ children, className }: Props) => (
-  <p className={cn('text-5xl mt-0 font-playfair italic text-white', className)}>
+  <p className={cn('text-4xl mt-0 font-playfair italic text-white', className)}>
     {children}
   </p>
 );
