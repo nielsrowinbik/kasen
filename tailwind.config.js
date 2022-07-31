@@ -1,4 +1,4 @@
-const { neutral } = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
@@ -31,23 +31,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        gray: neutral,
+      boxShadow: {
+        huge: '0 52px 74px rgb(0 21 64 / 14%)',
+      },
+      fontFamily: {
+        // sans: ['Biotif', ...defaultTheme.fontFamily.sans],
+        playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
       },
       screens: {
         print: { raw: 'print' },
-      },
-      typography: {
-        DEFAULT: {
-          css: {
-            h1: {
-              '@apply font-bold text-3xl md:text-5xl tracking-tight': '',
-            },
-            h2: {
-              '@apply font-bold text-2xl md:text-4xl tracking-tight': '',
-            },
-          },
-        },
       },
     },
   },

@@ -1,31 +1,80 @@
-import { allActivities } from 'contentlayer/generated';
-import type { InferGetStaticPropsType } from 'next';
-import Link from 'next/link';
+import HeroSection from 'components/HeroSection';
+import ImageSection from 'components/ImageSection';
+import LocationSection from 'components/LocationSection';
+import StickyNavigation from 'components/StickyNavigation';
 
-const IndexPage = ({
-  activities,
-}: InferGetStaticPropsType<typeof getStaticProps>) => {
+const IndexPage = () => {
   return (
-    <article className="prose prose-neutral prose-a:text-blue-600 prose-a:font-normal prose-a:no-underline hover:prose-a:underline dark:prose-invert dark:prose-a:text-blue-400">
-      <h1>Kasen</h1>
-      <h2>Activities</h2>
-      <ul>
-        {activities.map((activity) => (
-          <li key={activity.slug}>
-            <Link href={`/activity/${activity.slug}`}>{activity.title}</Link>
-          </li>
-        ))}
-      </ul>
-    </article>
+    <>
+      <StickyNavigation />
+      <HeroSection>
+        <HeroSection.Img src="/assets/images/kasen_buiten_1.jpg" />
+      </HeroSection>
+      <ImageSection>
+        <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
+        <ImageSection.Content>
+          <ImageSection.Header>
+            <ImageSection.Title>Ontdek Kasen</ImageSection.Title>
+            <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
+          </ImageSection.Header>
+          <p>
+            Kort verhaaltje. Niet te lang, want anders is het weer zo veel
+            leesvoer. Maar ook niet te kort, want dan staat het stom.
+          </p>
+          <ImageSection.Button href="/over">Over Kasen</ImageSection.Button>
+        </ImageSection.Content>
+      </ImageSection>
+      <ImageSection>
+        <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
+        <ImageSection.Content>
+          <ImageSection.Header>
+            <ImageSection.Title>Kamers</ImageSection.Title>
+            <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
+          </ImageSection.Header>
+          <p>
+            Kort verhaaltje. Niet te lang, want anders is het weer zo veel
+            leesvoer. Maar ook niet te kort, want dan staat het stom.
+          </p>
+          <p>Zo ziet nog een paragraaf eruit. Gaaf toch?</p>
+          <ImageSection.Button href="/over">Bekijk kamers</ImageSection.Button>
+        </ImageSection.Content>
+      </ImageSection>
+      <ImageSection>
+        <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
+        <ImageSection.Content>
+          <ImageSection.Header>
+            <ImageSection.Title>Omgeving</ImageSection.Title>
+            <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
+          </ImageSection.Header>
+          <p>
+            Kort verhaaltje. Niet te lang, want anders is het weer zo veel
+            leesvoer. Maar ook niet te kort, want dan staat het stom.
+          </p>
+          <p>Zo ziet nog een paragraaf eruit. Gaaf toch?</p>
+          <ImageSection.Button href="/over">
+            Meer informatie
+          </ImageSection.Button>
+        </ImageSection.Content>
+      </ImageSection>
+      <LocationSection>
+        <LocationSection.Map />
+        <LocationSection.Content>
+          <LocationSection.Header>
+            <LocationSection.Title>Locatie</LocationSection.Title>
+            <LocationSection.Subtitle>
+              Een zieke subtitle
+            </LocationSection.Subtitle>
+          </LocationSection.Header>
+          <p>
+            Hiernaast komt een kaartje met de locatie van Kasen op Google Maps.
+          </p>
+          <LocationSection.Button href="https://goo.gl/maps/Sp43HutBjVSt66VP9">
+            Google Maps
+          </LocationSection.Button>
+        </LocationSection.Content>
+      </LocationSection>
+    </>
   );
-};
-
-export const getStaticProps = () => {
-  const activities = allActivities.sort(
-    (a, b) => Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
-  );
-
-  return { props: { activities } };
 };
 
 export default IndexPage;

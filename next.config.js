@@ -9,6 +9,10 @@ module.exports = withContentlayer({
       },
     ];
   },
+  i18n: {
+    defaultLocale: 'nl',
+    locales: ['en', 'nl', 'se'],
+  },
 });
 
 // https://securityheaders.com

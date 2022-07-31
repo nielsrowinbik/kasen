@@ -1,15 +1,10 @@
 import '../styles/globals.css';
+// import '@fontsource/playfair-display'; // TODO: Only import sizes that we use
 
 import type { AppProps } from 'next/app';
 
-import SiteLayout from '../components/SiteLayout';
-
 const App = ({ Component, pageProps }: AppProps) => {
-  const getLayout =
-    // @ts-ignore
-    Component.getLayout || ((page) => <SiteLayout>{page}</SiteLayout>);
-
-  return getLayout(<Component {...pageProps} />);
+  return <Component {...pageProps} />;
 };
 
 export default App;
