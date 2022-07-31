@@ -24,7 +24,9 @@ const StickyNavigation = () => {
           />
         </svg>
       </button>
-      <span className="font-playfair">Kasen</span>
+      <Link href="/" passHref>
+        <a className="font-playfair">Kasen</a>
+      </Link>
       <ul className="flex space-x-3">
         {locales.sort().map((locale) => (
           <li key={locale}>
