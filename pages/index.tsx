@@ -22,21 +22,21 @@ const IndexPage = () => {
         <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
         <ImageSection.Content>
           <ImageSection.Header>
-            <ImageSection.Title>Ontdek Kasen</ImageSection.Title>
+            <ImageSection.Title>Over Kasen</ImageSection.Title>
             <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
           </ImageSection.Header>
           <p>
             Kort verhaaltje. Niet te lang, want anders is het weer zo veel
             leesvoer. Maar ook niet te kort, want dan staat het stom.
           </p>
-          <ImageSection.Button href="/over">Over Kasen</ImageSection.Button>
+          <ImageSection.Button href="/over">Meer lezen</ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
         <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
         <ImageSection.Content>
           <ImageSection.Header>
-            <ImageSection.Title>Kamers</ImageSection.Title>
+            <ImageSection.Title>Het huis</ImageSection.Title>
             <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
           </ImageSection.Header>
           <p>
@@ -44,7 +44,7 @@ const IndexPage = () => {
             leesvoer. Maar ook niet te kort, want dan staat het stom.
           </p>
           <p>Zo ziet nog een paragraaf eruit. Gaaf toch?</p>
-          <ImageSection.Button href="/over">Bekijk kamers</ImageSection.Button>
+          <ImageSection.Button href="/over">Bekijk Kasen</ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
