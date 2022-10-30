@@ -1,6 +1,6 @@
-import cn from 'classnames';
 import Link from 'next/link';
 import type { ReactNode } from 'react';
+import cn from 'classnames';
 
 type Props = {
   children?: ReactNode;
@@ -51,7 +51,7 @@ const Button = ({ children, className, href }: LinkProps) => (
   <Link href={href} passHref>
     <a
       className={cn(
-        'bg-green-500 no-underline py-3 px-4 uppercase text-white inline-block',
+        'bg-emerald-500 no-underline py-3 px-4 uppercase text-white inline-block',
         className
       )}
     >

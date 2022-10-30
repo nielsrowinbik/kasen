@@ -1,7 +1,7 @@
-import cn from 'classnames';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { ReactNode } from 'react';
+import cn from 'classnames';
+import { useRouter } from 'next/router';
 
 type Props = {
   activeClassName?: string;
