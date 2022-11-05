@@ -8,7 +8,7 @@ const IndexPage = () => {
     <>
       <StickyNavigation />
       <HeroSection>
-        <HeroSection.Img src="/assets/images/luchtfoto kasen.jpg" />
+        <HeroSection.Img src="/assets/images/IMG_0998.jpg" />
         <HeroSection.Content>
           <HeroSection.Header>
             <HeroSection.Title>Kasen</HeroSection.Title>
@@ -42,22 +42,30 @@ const IndexPage = () => {
           <ImageSection.Button href="/over">Verder lezen</ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>
-      {/* <ImageSection>
-        <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
+      <ImageSection>
+        <ImageSection.Img src="/assets/images/IMG_1619.jpg" />
         <ImageSection.Content>
           <ImageSection.Header>
-            <ImageSection.Title>Over het huis</ImageSection.Title>
-            <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
+            <ImageSection.Title>Bezoek Kasen</ImageSection.Title>
+            <ImageSection.Subtitle>Geniet van de rust</ImageSection.Subtitle>
           </ImageSection.Header>
           <p>
-            Kort verhaaltje. Niet te lang, want anders is het weer zo veel
-            leesvoer. Maar ook niet te kort, want dan staat het stom.
+            Wij, Leonard en Ciska, gaan zo vaak als het maar kan naar Kasen,
+            maar in de praktijk is dat toch maar zo’n drie tot vier keer per
+            jaar. Omdat het goed is voor het huis, en omdat we deze heerlijke
+            plek ook willen delen, geven we onze vrienden en bekenden de
+            mogelijkheid om tegen een schappelijke vergoeding [of
+            vriendenprijsje?] in Kasen te verblijven. Sinds 2014 hebben al heel
+            wat mensen een bezoekje aan Kasen gebracht en van het huis en de
+            omgeving genoten.
           </p>
-          <ImageSection.Button href="/over">Meer lezen</ImageSection.Button>
+          <ImageSection.Button href="/bekijk">
+            Meer informatie
+          </ImageSection.Button>
         </ImageSection.Content>
-      </ImageSection> */}
+      </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/kasen_buiten_4.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_1619.jpg" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Omgeving</ImageSection.Title>
