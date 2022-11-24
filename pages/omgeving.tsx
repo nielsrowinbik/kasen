@@ -72,19 +72,49 @@ const AreaPage = () => {
             voldoende te beleven. Bengstfors en Åmål zijn aardige plaatsen om
             boodschappen te doen en wat winkels te bekijken. Karlstad is wat
             verder rijden, maar een leuke middelgrote stad met onder andere het{' '}
-            <a href="https://sandgrund.org">Lars Lerin museum</a>. Ook in{' '}
-            <a href="https://www.gammelgarden.com">Bengstfors</a>,{' '}
-            <a href="https://www.rostock.se">Dals-Rostock</a>,{' '}
-            <a href="https://mellerudsmuseum.com/">Mellerud</a> en{' '}
-            <a href="https://www.dalslandskonstmuseum.se">Upperud</a> zijn
-            verschillende musea die de moeite waard zijn.
+            Lars Lerin museum (
+            <a href="https://sandgrund.org" rel="noreferrer" target="_blank">
+              sandgrund.org
+            </a>
+            ). Ook in Bengstfors (
+            <a
+              href="https://www.gammelgarden.com"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.gammelgarden.com
+            </a>
+            ), Dals-Rostock (
+            <a href="https://www.rostock.se" rel="noreferrer" target="_blank">
+              www.rostock.se
+            </a>
+            ), Mellerud (
+            <a
+              href="https://mellerudsmuseum.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              mellerudsmuseum.com
+            </a>
+            ) en Upperud (
+            <a
+              href="https://www.dalslandskonstmuseum.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.dalslandskonstmuseum.se
+            </a>
+            ) zijn verschillende musea die de moeite waard zijn.
           </p>
           <p>
             En niet te vergeten: <i>Not quite</i> in Fengersfors. In deze oude
             papierfabriek hebben verschillende kunstenaars hun intrek gedaan. Er
             is een café met heerlijke zelfgebakken taarten en een kleine
-            bakkerij waar in een steenoven heerlijk brood wordt gebakken
-            (www.notquite.se).
+            bakkerij waar in een steenoven heerlijk brood wordt gebakken (
+            <a href="https://www.notquite.se" rel="noreferrer" target="_blank">
+              www.notquite.se
+            </a>
+            ).
           </p>
         </ImageSection.Content>
       </ImageSection>
@@ -97,25 +127,76 @@ const AreaPage = () => {
           </ImageSection.Header>
           <p>
             In Håverud kun je zien hoe het Dalslandkanaal door middel van een
-            reeks sluizen het grote hoogteverschil tussen de meren overbrugt
-            (www.dalslandskanal.se). In dit kleine, maar toeristische plaatsje
-            bevinden zich ook een glasblazerij
-            (http://www.dalslandsglashytta.se), een leuk cultuurhistorisch
-            museum (http://www.kanalmuseet.se) en een kaboutermuseum
-            (http://www.nordiskatomtemuseet.com/).
+            reeks sluizen het grote hoogteverschil tussen de meren overbrugt (
+            <a
+              href="https://www.dalslandskanal.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.dalslandskanal.se
+            </a>
+            ). In dit kleine, maar toeristische plaatsje bevinden zich ook een
+            glasblazerij (
+            <a
+              href="http://www.dalslandsglashytta.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.dalslandsglashytta.se
+            </a>
+            ), een leuk cultuurhistorisch museum (
+            <a
+              href="http://www.kanalmuseet.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.kanalmuseet.se
+            </a>
+            ) en een kaboutermuseum (
+            <a
+              href="http://www.nordiskatomtemuseet.com"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.nordiskatomtemuseet.com
+            </a>
+            ).
           </p>
           <p>
             Bij Dalslands Aktiviteter kun je allerlei outdoor activiteiten
-            boeken (www.dalslandsaktiviteter.se) en bij Dalslands Moose Ranch in
-            Ed kun je elanden zien, aanraken en er over leren: heel erg leuk!
-            (www.dalslandsmooserance.se). Joytrail verhuurt kano’s en dressiner
-            waarmee je een fietstocht over een oude niet meer in gebruik zijnde
-            spoorlijn kunt maken (www.joytrail.se).
+            boeken (
+            <a
+              href="https://www.dalslandsaktiviteter.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.dalslandsaktiviteter.se
+            </a>
+            ) en bij Dalslands Moose Ranch in Ed kun je elanden zien, aanraken
+            en er over leren: heel erg leuk (
+            <a
+              href="https://www.dalslandsmooserance.se"
+              rel="noreferrer"
+              target="_blank"
+            >
+              www.dalslandsmooserance.se
+            </a>
+            )! Joytrail verhuurt kano&apos;s en dressiner waarmee je een
+            fietstocht over een oude niet meer in gebruik zijnde spoorlijn kunt
+            maken (
+            <a href="https://www.joytrail.se" rel="noreferrer" target="_blank">
+              www.joytrail.se
+            </a>
+            ).
           </p>
           <p>
             In Fengersfors is er een heerlijke pluktuin waar je zelf een boeket
             voor op de keukentafel kunt plukken of een bloemschikworkshop kunt
-            volgen (https://www.frobacken.se/).
+            volgen (
+            <a href="https://www.frobacken.se" rel="noreferrer" target="_blank">
+              www.frobacken.se
+            </a>
+            ).
           </p>
           <p>
             En er is nog veel meer te beleven: een map met informatie en tips
