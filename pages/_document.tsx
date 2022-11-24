@@ -1,10 +1,11 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import { Head, Html, Main, NextScript } from 'next/document';
 
 const Document = () => (
   <Html lang="en">
     <Head>
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="robots" content="noindex" />
       <link
         rel="apple-touch-icon"
         sizes="57x57"
