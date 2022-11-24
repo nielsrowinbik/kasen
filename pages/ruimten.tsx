@@ -88,7 +88,7 @@ const SpacesPage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/P1050092.jpg" />
+        <ImageSection.Img src="/assets/images/P1050092.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Slaapkamer 1</ImageSection.Title>
