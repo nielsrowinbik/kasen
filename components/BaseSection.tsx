@@ -23,7 +23,7 @@ const Header = ({ children, className }: Props) => (
 );
 
 const Title = ({ children, className }: Props) => (
-  <h2 className={cn('text-5xl font-bold mb-5 mt-0', className)}>{children}</h2>
+  <h2 className={cn('text-4xl font-bold mb-5 mt-0', className)}>{children}</h2>
 );
 
 const Subtitle = ({ children, className }: Props) => (
