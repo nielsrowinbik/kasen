@@ -83,10 +83,10 @@ const HomePage = () => {
             doe ik bij problemen met of om het huis?’. Een geprinte versie van
             het praktisch ABC ligt ook in Kasen.
           </p>
-          <p>De huis(spel)regels van Kasen lees je hieronder.</p>
           <ImageSection.Button href="/assets/files/Praktisch ABC 2022.pdf">
             Bekijk praktisch ABC
           </ImageSection.Button>
+          <p>De huis(spel)regels van Kasen lees je hieronder.</p>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
