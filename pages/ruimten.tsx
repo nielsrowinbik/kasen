@@ -64,8 +64,8 @@ const SpacesPage = () => {
             zorgt de houtkachel voor warme gezelligheid. Er zijn spelletjes en
             puzzels, boeken en tijdschriften, voor elk wat wils. Voor de
             liefhebbers van bewegend beeld is er een tv, maar deze kan alleen
-            gebruikt worden om dvd’s te kijken, we hebben geen antenne of kabel.
-            Dvd-speler en een ruime voorraad dvd’s zijn aanwezig.
+            gebruikt worden om dvd&apos;s te kijken, we hebben geen antenne of
+            kabel. Dvd-speler en een ruime voorraad dvd&apos;s zijn aanwezig.
           </p>
         </ImageSection.Content>
       </ImageSection>

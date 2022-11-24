@@ -149,7 +149,7 @@ const ContactPage = () => {
           <p>
             Kasen is een warm, knus en sfeervol huis en van alle gemakken
             voorzien. Het huis ligt op een groot stuk grond (4000 m2) midden in
-            het bos. De dichtstbijzijnde buurwoning is op zo’n 700 m en op
+            het bos. De dichtstbijzijnde buurwoning is op zo&apos;n 700 m en op
             ongeveer een kilometer afstand begint de bebouwing van het dorp
             Fengersfors, waarvan het centrum op iets meer dan 2 km van Kasen
             ligt. Fengersfors ligt in de provincie Dalsland en heeft ongeveer

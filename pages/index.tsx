@@ -50,13 +50,12 @@ const IndexPage = () => {
           </ImageSection.Header>
           <p>
             Wij, Leonard en Ciska, gaan zo vaak als het maar kan naar Kasen,
-            maar in de praktijk is dat toch maar zo’n drie tot vier keer per
-            jaar. Omdat het goed is voor het huis, en omdat we deze heerlijke
-            plek ook willen delen, geven we onze vrienden en bekenden de
-            mogelijkheid om tegen een schappelijke vergoeding [of
-            vriendenprijsje?] in Kasen te verblijven. Sinds 2014 hebben al heel
-            wat mensen een bezoekje aan Kasen gebracht en van het huis en de
-            omgeving genoten.
+            maar in de praktijk is dat toch maar zo&apos;n drie tot vier keer
+            per jaar. Omdat het goed is voor het huis, en omdat we deze
+            heerlijke plek ook willen delen, geven we onze vrienden en bekenden
+            de mogelijkheid om tegen een schappelijke vergoeding in Kasen te
+            verblijven. Sinds 2014 hebben al heel wat mensen een bezoekje aan
+            Kasen gebracht en van het huis en de omgeving genoten.
           </p>
           <ImageSection.Button href="/bekijk">
             Meer informatie
