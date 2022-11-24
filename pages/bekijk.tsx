@@ -84,9 +84,8 @@ const HomePage = () => {
             het praktisch ABC ligt ook in Kasen.
           </p>
           <p>De huis(spel)regels van Kasen lees je hieronder.</p>
-          {/* TODO: Add download button */}
-          <ImageSection.Button href="#">
-            Download praktisch ABC
+          <ImageSection.Button href="/assets/files/Praktisch ABC 2022.pdf">
+            Bekijk praktisch ABC
           </ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>

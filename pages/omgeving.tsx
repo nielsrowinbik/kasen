@@ -224,7 +224,14 @@ const AreaPage = () => {
             het overzicht kun je zien welke soorten en de infographic toont
             welke andere dieren we zoal hebben waargenomen.
           </p>
-          <ImageSection.Button href="#">Vogeloverzicht</ImageSection.Button>
+          <div className="flex space-x-3">
+            <ImageSection.Button href="/assets/files/waarnemingen vogels 2014-2021.pdf">
+              Bekijk vogeloverzicht
+            </ImageSection.Button>
+            <ImageSection.Button href="/assets/files/infographic 2014 - 2021.pdf">
+              Bekijk infographic
+            </ImageSection.Button>
+          </div>
         </ImageSection.Content>
       </ImageSection>
     </>
