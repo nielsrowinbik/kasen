@@ -1,6 +1,5 @@
 import HeroSection from 'components/HeroSection';
 import ImageSection from 'components/ImageSection';
-import LocationSection from 'components/LocationSection';
 import StickyNavigation from 'components/StickyNavigation';
 
 const IndexPage = () => {
@@ -8,7 +7,7 @@ const IndexPage = () => {
     <>
       <StickyNavigation />
       <HeroSection>
-        <HeroSection.Img src="/assets/images/IMG_0998.jpg" />
+        <HeroSection.Img src="/assets/images/IMG_0998.JPG" />
         <HeroSection.Content>
           <HeroSection.Header>
             <HeroSection.Title>Kasen</HeroSection.Title>
@@ -43,7 +42,7 @@ const IndexPage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_1619.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_1619.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Bezoek Kasen</ImageSection.Title>
@@ -65,39 +64,25 @@ const IndexPage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_1619.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_4326.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
-            <ImageSection.Title>Omgeving</ImageSection.Title>
-            <ImageSection.Subtitle>Een zieke subtitle</ImageSection.Subtitle>
+            <ImageSection.Title>Omgeving Kasen</ImageSection.Title>
+            <ImageSection.Subtitle>Enorm gevarieerd</ImageSection.Subtitle>
           </ImageSection.Header>
           <p>
-            Kort verhaaltje. Niet te lang, want anders is het weer zo veel
-            leesvoer. Maar ook niet te kort, want dan staat het stom.
+            Kasen ligt midden in het bos, in de prachtige provincie Dalsland. De
+            natuur is er overweldigend en gevarieerd. Je kunt er wandelend,
+            fietsend en kajakkend van genieten, en soms oog in oog komen te
+            staan met een eland, een ree of een eekhoorn. Maar ook als je wat
+            anders wilt beleven dan natuur, is er dichtbij en wat verder weg van
+            alles te beleven.
           </p>
-          <p>Zo ziet nog een paragraaf eruit. Gaaf toch?</p>
           <ImageSection.Button href="/omgeving">
             Meer informatie
           </ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>
-      <LocationSection>
-        <LocationSection.Map />
-        <LocationSection.Content>
-          <LocationSection.Header>
-            <LocationSection.Title>Locatie</LocationSection.Title>
-            <LocationSection.Subtitle>
-              Een zieke subtitle
-            </LocationSection.Subtitle>
-          </LocationSection.Header>
-          <p>
-            Hiernaast komt een kaartje met de locatie van Kasen op Google Maps.
-          </p>
-          <LocationSection.Button href="https://goo.gl/maps/Sp43HutBjVSt66VP9">
-            Google Maps
-          </LocationSection.Button>
-        </LocationSection.Content>
-      </LocationSection>
     </>
   );
 };

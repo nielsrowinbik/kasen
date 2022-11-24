@@ -18,7 +18,7 @@ const HomePage = () => {
         </HeroSection.Content>
       </HeroSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/DSC04464.jpg" />
+        <ImageSection.Img src="/assets/images/DSC04464.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Een kijkje in Kasen</ImageSection.Title>
@@ -34,7 +34,7 @@ const HomePage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_9227.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_9227.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Je bezoek aan Kasen</ImageSection.Title>
@@ -46,14 +46,10 @@ const HomePage = () => {
             dat Kasen globaal vanaf eind april tot en met half november
             bewoonbaar is.
           </p>
-          {/* TODO: Visitter integration */}
-          <ImageSection.Button href="/beschikbaarheid">
-            Beschikbaarheid bekijken
-          </ImageSection.Button>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_9906.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_9906.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Extra's</ImageSection.Title>
@@ -74,7 +70,7 @@ const HomePage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_1559.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_1559.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Praktische zaken</ImageSection.Title>
@@ -95,7 +91,7 @@ const HomePage = () => {
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_8860.jpg" />
+        <ImageSection.Img src="/assets/images/IMG_8860.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Huis(spel)regels</ImageSection.Title>

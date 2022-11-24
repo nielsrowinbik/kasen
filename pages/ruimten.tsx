@@ -16,7 +16,7 @@ const SpacesPage = () => {
         </HeroSection.Content>
       </HeroSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/P1050927.jpg" />
+        <ImageSection.Img src="/assets/images/P1050927.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Badkamer</ImageSection.Title>

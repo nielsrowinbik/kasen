@@ -1,6 +1,6 @@
-import cn from 'classnames';
 import NextImage from 'next/image';
 import type { ReactNode } from 'react';
+import cn from 'classnames';
 
 type Props = {
   children?: ReactNode;
@@ -42,11 +42,11 @@ const Img = ({ src }) => (
 const Content = ({ children, className }: Props) => (
   <div
     className={cn(
-      'absolute inset-0 flex items-center justify-center',
+      'absolute inset-0 flex items-end justify-center bg-gradient-to-t from-black/30 to-transparent',
       className
     )}
   >
-    <div className="prose prose-headings:font-playfair !prose-invert">
+    <div className={'prose prose-headings:font-playfair !prose-invert'}>
       {children}
     </div>
   </div>
