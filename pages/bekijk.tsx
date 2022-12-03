@@ -46,10 +46,11 @@ const HomePage = () => {
             dat Kasen globaal vanaf eind april tot en met half november
             bewoonbaar is.
           </p>
+          <p>Neem contact op om de beschikbaarheid van Kasen te controleren.</p>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>
-        <ImageSection.Img src="/assets/images/IMG_9906.JPG" />
+        <ImageSection.Img src="/assets/images/IMG_8565.JPG" />
         <ImageSection.Content>
           <ImageSection.Header>
             <ImageSection.Title>Extra's</ImageSection.Title>
@@ -86,7 +87,6 @@ const HomePage = () => {
           <ImageSection.Button href="/assets/files/Praktisch ABC 2022.pdf">
             Bekijk praktisch ABC
           </ImageSection.Button>
-          <p>De huis(spel)regels van Kasen lees je hieronder.</p>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>

@@ -7,11 +7,13 @@ const SpacesPage = () => {
     <>
       <StickyNavigation />
       <HeroSection center fullHeight={false}>
-        <HeroSection.Img src="/assets/images/IMG_5770.jpg" />
+        <HeroSection.Img src="/assets/images/IMG_8607_crop.jpg" />
         <HeroSection.Content>
           <HeroSection.Header>
-            <HeroSection.Title>Titel?</HeroSection.Title>
-            <HeroSection.Subtitle>Ondertitel?</HeroSection.Subtitle>
+            <HeroSection.Title>Een kijkje in Kasen</HeroSection.Title>
+            <HeroSection.Subtitle>
+              Kasen vanbinnen - vällkommmen
+            </HeroSection.Subtitle>
           </HeroSection.Header>
         </HeroSection.Content>
       </HeroSection>
