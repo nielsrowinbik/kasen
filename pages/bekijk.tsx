@@ -46,7 +46,7 @@ const HomePage = () => {
             dat Kasen globaal vanaf eind april tot en met half november
             bewoonbaar is.
           </p>
-          <p>Neem contact op om de beschikbaarheid van Kasen te controleren.</p>
+          <p>Neem contact op om de beschikbaarheid van Kasen te bekijken.</p>
         </ImageSection.Content>
       </ImageSection>
       <ImageSection>

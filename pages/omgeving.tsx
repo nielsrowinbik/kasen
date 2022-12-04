@@ -7,7 +7,7 @@ const AreaPage = () => {
     <>
       <StickyNavigation />
       <HeroSection center fullHeight={false}>
-        <HeroSection.Img src="/assets/images/IMG_8607.jpg" />
+        <HeroSection.Img src="/assets/images/omgeving-panorama.jpg" />
         <HeroSection.Content>
           <HeroSection.Header>
             <HeroSection.Title>Omgeving Kasen</HeroSection.Title>

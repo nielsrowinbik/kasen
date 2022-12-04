@@ -10,10 +10,8 @@ const SpacesPage = () => {
         <HeroSection.Img src="/assets/images/IMG_8607_crop.jpg" />
         <HeroSection.Content>
           <HeroSection.Header>
-            <HeroSection.Title>Een kijkje in Kasen</HeroSection.Title>
-            <HeroSection.Subtitle>
-              Kasen vanbinnen - vällkommmen
-            </HeroSection.Subtitle>
+            <HeroSection.Title>Kasen vanbinnen</HeroSection.Title>
+            <HeroSection.Subtitle>Vällkommen!</HeroSection.Subtitle>
           </HeroSection.Header>
         </HeroSection.Content>
       </HeroSection>
