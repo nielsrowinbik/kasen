@@ -31,7 +31,13 @@ const Section = ({
 );
 
 const Img = ({ src }) => (
-  <NextImage fill className="object-cover object-center" src={src} />
+  <NextImage
+    alt=""
+    aria-hidden
+    fill
+    className="object-cover object-center"
+    src={src}
+  />
 );
 
 const Content = ({ children, className }: Props) => (
