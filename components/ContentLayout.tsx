@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import HeroSection from './HeroSection';
 import type { ReactNode } from 'react';
 import StickyNavigation from './StickyNavigation';
@@ -15,6 +16,10 @@ interface ContentLayoutProps {
 export function ContentLayout({ children, meta }: ContentLayoutProps) {
   return (
     <>
+      <Head>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.subtitle} />
+      </Head>
       <StickyNavigation />
       <HeroSection center fullHeight={meta.full || false}>
         <HeroSection.Img src={meta.image} />
