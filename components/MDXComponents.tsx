@@ -2,10 +2,10 @@ import Image from 'next/image';
 import type { ImageProps } from 'next/image';
 import Link from 'next/link';
 
-const CustomImage = (props: ImageProps) => {
+const CustomImage = ({ src }) => {
   return (
     <div>
-      <Image fill {...props} />
+      <Image alt="" aria-hidden fill src={src} />
     </div>
   );
 };
