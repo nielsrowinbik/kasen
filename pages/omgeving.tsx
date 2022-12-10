@@ -108,8 +108,8 @@ const AreaPage = () => {
           </p>
           <p>
             En niet te vergeten: <i>Not quite</i> in Fengersfors. In deze oude
-            papierfabriek hebben verschillende kunstenaars hun intrek gedaan. Er
-            is een café met heerlijke zelfgebakken taarten en een kleine
+            papierfabriek hebben verschillende kunstenaars hun intrek genomen.
+            Er is een café met heerlijke zelfgebakken taarten en een kleine
             bakkerij waar in een steenoven heerlijk brood wordt gebakken (
             <a href="https://www.notquite.se" rel="noreferrer" target="_blank">
               www.notquite.se
