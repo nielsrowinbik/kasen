@@ -31,12 +31,7 @@ const Section = ({
 );
 
 const Img = ({ src }) => (
-  <NextImage
-    layout="fill"
-    objectFit="cover"
-    objectPosition="center"
-    src={src}
-  />
+  <NextImage fill className="object-cover object-center" src={src} />
 );
 
 const Content = ({ children, className }: Props) => (

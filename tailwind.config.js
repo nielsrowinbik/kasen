@@ -2,7 +2,12 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx'],
+  content: [
+    './pages/**/*.tsx',
+    './pages/**/*.mdx',
+    './components/**/*.tsx',
+    './layouts/**/*.tsx',
+  ],
   plugins: [
     require('@tailwindcss/typography'),
     // Add `:empty` variant:

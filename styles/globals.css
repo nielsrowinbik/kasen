@@ -4,8 +4,54 @@
 @tailwind components;
 @tailwind utilities;
 
-#__next {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+@layer base {
+  #__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .content {
+    @apply prose prose-headings:font-playfair max-w-none prose-h2:hidden prose-hr:hidden prose-h3:text-4xl prose-h3:mt-0 empty:prose-p:hidden;
+  }
+
+  .content > section {
+    /* @apply lg:grid lg:grid-cols-2 lg:grid-flow-row sm:mx-5 sm:mb-5 shadow-xl bg-white min-h-[65vh] sm:min-h-[65vh]; */
+    @apply lg:grid lg:grid-cols-2 lg:grid-flow-row sm:mx-5 sm:mb-5 shadow-xl bg-white min-h-[50vh];
+  }
+
+  .content > section > section {
+    @apply w-full px-6 lg:px-16 py-24 flex-auto;
+  }
+
+  .content > section:nth-child(odd) > section {
+    @apply -order-1;
+  }
+
+  .content > section > section > h3 + p {
+    @apply font-playfair italic text-xl text-gray-700 text-opacity-60;
+  }
+
+  .content div:has(> img),
+  .content img {
+    @apply min-h-[40vh] sm:min-h-[50h];
+  }
+
+  .content div:has(> img) {
+    @apply relative;
+  }
+
+  .content img {
+    @apply w-full h-full object-cover m-0;
+  }
+
+  .links p {
+    @apply space-x-3;
+  }
+
+  .links a {
+    @apply bg-emerald-500 no-underline py-3 px-4 uppercase text-white inline-block;
+  }
 }

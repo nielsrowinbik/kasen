@@ -16,14 +16,17 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"]
-    }
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/config/*": ["config/*"],
+      "@/styles/*": ["styles/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".contentlayer/generated"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

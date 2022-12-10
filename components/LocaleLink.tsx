@@ -20,10 +20,12 @@ const LocaleLink = ({
   const isActive = currentLocale === locale;
 
   return (
-    <Link href={asPath} locale={locale}>
-      <a className={cn(className, isActive && activeClassName)}>
-        {children || locale.toUpperCase()}
-      </a>
+    <Link
+      className={cn(className, isActive && activeClassName)}
+      href={asPath}
+      locale={locale}
+    >
+      {children || locale.toUpperCase()}
     </Link>
   );
 };
