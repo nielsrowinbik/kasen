@@ -2,10 +2,17 @@ import Image from 'next/image';
 import type { ImageProps } from 'next/image';
 import Link from 'next/link';
 
-const CustomImage = ({ src }) => {
+const CustomImage = ({ alt = '', src }) => {
   return (
     <div>
-      <Image alt="" aria-hidden fill src={src} />
+      <Image
+        alt={alt}
+        aria-hidden
+        fill
+        // placeholder="blur"
+        sizes="(min-width: 1024px) 50vw, 100vw"
+        src={src}
+      />
     </div>
   );
 };
