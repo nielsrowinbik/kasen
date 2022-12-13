@@ -1,8 +1,20 @@
+import type {
+  AnchorHTMLAttributes,
+  DetailedHTMLProps,
+  ImgHTMLAttributes,
+} from 'react';
+
 import Image from 'next/image';
 import type { ImageProps } from 'next/image';
 import Link from 'next/link';
 
-const CustomImage = ({ alt = '', src }) => {
+const CustomImage = ({
+  alt = '',
+  src,
+}: DetailedHTMLProps<
+  ImgHTMLAttributes<HTMLImageElement>,
+  HTMLImageElement
+>) => {
   return (
     <div>
       <Image
@@ -11,25 +23,27 @@ const CustomImage = ({ alt = '', src }) => {
         fill
         // placeholder="blur"
         sizes="(min-width: 1024px) 50vw, 100vw"
-        src={src}
+        src={src!}
       />
     </div>
   );
 };
 
-const CustomLink = (props) => {
-  const href = props.href;
+const CustomLink = ({
+  children,
+  href,
+  ...props
+}: DetailedHTMLProps<
+  AnchorHTMLAttributes<HTMLAnchorElement>,
+  HTMLAnchorElement
+>) => {
   const isInternalLink =
     href &&
     (href.startsWith('/') || href.startsWith('#')) &&
     !href.startsWith('/assets');
 
   if (isInternalLink) {
-    return (
-      <Link href={href} {...props}>
-        {props.children}
-      </Link>
-    );
+    return <Link href={href}>{children}</Link>;
   }
 
   return <a target="_blank" rel="noopener noreferrer" {...props} />;

@@ -30,7 +30,7 @@ const Section = ({
   </section>
 );
 
-const Img = ({ src }) => (
+const Img = ({ src }: { src: string }) => (
   <NextImage
     alt=""
     aria-hidden
