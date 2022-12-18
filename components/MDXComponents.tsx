@@ -29,21 +29,19 @@ const CustomImage = ({
   );
 };
 
-const CustomLink = ({
-  children,
-  href,
-  ...props
-}: DetailedHTMLProps<
-  AnchorHTMLAttributes<HTMLAnchorElement>,
-  HTMLAnchorElement
->) => {
+const CustomLink = (
+  props: DetailedHTMLProps<
+    AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  >
+) => {
   const isInternalLink =
-    href &&
-    (href.startsWith('/') || href.startsWith('#')) &&
-    !href.startsWith('/assets');
+    props.href &&
+    (props.href.startsWith('/') || props.href.startsWith('#')) &&
+    !props.href.startsWith('/assets');
 
   if (isInternalLink) {
-    return <Link href={href}>{children}</Link>;
+    return <Link href={props.href!}>{props.children}</Link>;
   }
 
   return <a target="_blank" rel="noopener noreferrer" {...props} />;
