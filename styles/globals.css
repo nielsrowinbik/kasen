@@ -47,11 +47,7 @@
     @apply w-full h-full object-cover m-0;
   }
 
-  .links p {
-    @apply space-x-3;
-  }
-
   .links a {
-    @apply bg-emerald-500 no-underline py-3 px-4 uppercase text-white inline-block;
+    @apply bg-emerald-500 no-underline py-3 px-4 uppercase text-white inline-block mr-3 mb-3;
   }
 }
