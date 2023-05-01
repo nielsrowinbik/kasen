@@ -28,7 +28,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remark-gfm": "^3.0.1",
-    "remark-sectionize": "^1.1.1",
+    "remark-sectionize": "^2.0.0",
     "remark-unwrap-images": "^3.0.1"
   },
   "devDependencies": {
